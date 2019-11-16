@@ -13655,11 +13655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IMRAN\\BITM Project (26-07-2019)\\TMS\\TMS\\TMS.csproj",
+      "projectUniqueName": "D:\\IMRAN\\TMS-Project\\TMS\\TMS.csproj",
       "projectName": "TMS",
-      "projectPath": "D:\\IMRAN\\BITM Project (26-07-2019)\\TMS\\TMS\\TMS.csproj",
+      "projectPath": "D:\\IMRAN\\TMS-Project\\TMS\\TMS.csproj",
       "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-      "outputPath": "D:\\IMRAN\\BITM Project (26-07-2019)\\TMS\\TMS\\obj\\",
+      "outputPath": "D:\\IMRAN\\TMS-Project\\TMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

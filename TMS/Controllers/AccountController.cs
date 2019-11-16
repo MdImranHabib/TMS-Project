@@ -86,7 +86,8 @@ namespace TMS.Controllers
                     if (roletype == "Coordinator")
                     {
                         var cid = _context.Coordinator.Where(u => u.Email == model.Email).FirstOrDefault();
-                        TempData["Coordinatorid"] = cid.Id;
+                        int cId = cid.Id;
+                        HttpContext.Session.SetInt32("InstructorId", cId);
 
                         _logger.LogInformation("User logged in.");
                         //return RedirectToLocal(returnUrl);
@@ -284,8 +285,8 @@ namespace TMS.Controllers
                     var callbackUrl = Url.EmailConfirmationLink(user.Id, code, Request.Scheme);
                     await _emailSender.SendEmailConfirmationAsync(model.Email, callbackUrl);
 
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-                    _logger.LogInformation("User created a new account with password.");
+                    //await _signInManager.SignInAsync(user, isPersistent: false);
+                    //_logger.LogInformation("User created a new account with password.");
                     ViewBag.msg = "The user has been registered successfully!";
                     return View("Register");
                     //return Content("The user has been registered!");

@@ -82,3 +82,15 @@ D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyI
 D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
 D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.dll
 D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+D:\IMRAN\TMS-Project\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+D:\IMRAN\TMS-Project\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+D:\IMRAN\TMS-Project\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+D:\IMRAN\TMS-Project\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+D:\IMRAN\TMS-Project\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+D:\IMRAN\TMS-Project\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
