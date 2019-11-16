@@ -1,0 +1,166 @@
+﻿@model IEnumerable<TMS.Models.Performance>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_CoordinatorLayout.cshtml";
+    int i = 1;
+}
+
+<h3 class="alert bg-primary text-center">Performances List</h3>
+<div class="row">
+    <div class="col-md-3" style="float:right">
+        <form class="form-inline" asp-controller="Performances" asp-action="Index" method="post">
+            <input type="number" name="tid" class="form-control" value="@ViewBag.stext" placeholder="Search By Trainee ID..." />
+            <input type="submit" class="form-control btn btn-success" value="Search" />
+        </form>
+    </div>
+    <div class="col-md-4">
+        @if (ViewBag.status == 1)
+        {
+            <a asp-action="Index" class="btn btn-primary">Back To List</a>
+        }
+    </div>
+</div>
+<br />
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="bg-primary">
+            <th>
+                #.
+            </th>
+            <th>
+                Trainee Name
+            </th>
+            <th>
+                Trainee ID
+            </th>
+            <th>
+                Task No.
+            </th>
+            <th>
+                Task Progress
+            </th>
+            <th>
+                Task Accuracy
+            </th>
+            <th>
+                Performance Score
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (i % 2 == 0)
+            {
+                <tr class="danger">
+                    <td>@i.</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Task.Number)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Progress.Completed)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Accuracy)
+                    </td>
+                    <td>
+                        @(Convert.ToInt32(item.Progress.Completed) + (item.Accuracy))
+                    </td>
+
+                    @if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 179)
+                    {
+                        <td>Exelent</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 159 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 180)
+                    {
+                        <td>Good</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 139 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 160)
+                    {
+                        <td>Average</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 119 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 140)
+                    {
+                        <td>Low</td>
+                    }
+                    else
+                    {
+                        <td>Bad</td>
+                    }
+
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |*@
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                        @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr class="warning">
+                    <td>@i.</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Task.Number)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Progress.Completed)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Accuracy)
+                    </td>
+                    <td>
+                        @(Convert.ToInt32(item.Progress.Completed) + (item.Accuracy))
+                    </td>
+
+                    @if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 179)
+                    {
+                        <td>Exelent</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 159 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 180)
+                    {
+                        <td>Good</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 139 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 160)
+                    {
+                        <td>Average</td>
+                    }
+                    else if ((Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) > 119 && (Convert.ToInt32(item.Progress.Completed) + (item.Accuracy)) < 140)
+                    {
+                        <td>Low</td>
+                    }
+                    else
+                    {
+                        <td>Bad</td>
+                    }
+
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |*@
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                        @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+            i++;
+        }
+    </tbody>
+</table>

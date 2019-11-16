@@ -1,0 +1,136 @@
+﻿@model IEnumerable<TMS.Models.Tasks>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_CoordinatorLayout.cshtml";
+    int i = 1;
+}
+
+<h3 class="alert bg-primary text-center">Tasks List</h3>
+
+<div class="row">
+    <div class="col-lg-3" style="float:right">
+        <form class="form-inline" asp-controller="Tasks" asp-action="Index" method="post">
+            <input type="number" name="tid" class="form-control" value="@ViewBag.stext" placeholder="Search By Trainee ID..." />
+            <input type="submit" class="form-control btn btn-success" value="Search" />
+        </form>
+    </div>
+    <div class="col-md-4">
+        @if (ViewBag.status == 1)
+        {
+            <a asp-action="Index" class="btn btn-primary">Back To List</a>
+        }
+    </div>
+</div>
+<br />
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="bg-primary">
+            <th>
+                #.
+            </th>
+            <th>
+                Trainee Name
+            </th>
+            <th>
+                Trainee ID
+            </th>
+            <th>
+                Instructor Name
+            </th>
+            <th>
+                Task ID
+            </th>
+            <th>
+                Task Name
+            </th>
+            <th>
+                Task No.
+            </th>
+            <th>
+                Assign Date
+            </th>
+            <th>
+                Submision Date
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (i % 2 == 0)
+            {
+                <tr class="danger">
+                    <td>@i.</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Instructor.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Number)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssignDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SubmissionDate)
+                    </td>
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>*@
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                        @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr class="warning">
+                    <td>@i.</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Trainee.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Instructor.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Number)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssignDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SubmissionDate)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                    </td>
+                </tr>
+            }
+            i++;
+        }
+    </tbody>
+</table>

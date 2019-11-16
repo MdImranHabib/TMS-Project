@@ -1,0 +1,84 @@
+C:\Users\EliteBook\Desktop\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+C:\Users\EliteBook\Desktop\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+C:\Users\EliteBook\Desktop\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+C:\Users\EliteBook\Desktop\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\TMS\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS(18-05)\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\TMS(24-05)\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\BITM Project (The Anonymous)\TMS(23-07)\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+C:\Users\EliteBook\Desktop\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+F:\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+F:\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+F:\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+F:\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+F:\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+F:\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.deps.json
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.json
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.runtimeconfig.dev.json
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.dll
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\bin\Debug\netcoreapp2.0\TMS.pdb
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csprojAssemblyReference.cache
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.csproj.CoreCompileInputs.cache
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfoInputs.cache
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.AssemblyInfo.cs
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.dll
+D:\IMRAN\BITM Project (26-07-2019)\TMS\TMS\obj\Debug\netcoreapp2.0\TMS.pdb
