@@ -1,2 +1,2 @@
 # TMS-Project
-Training Management System
+NGO Based Training Management System
